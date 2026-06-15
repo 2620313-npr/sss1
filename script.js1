@@ -1,0 +1,43 @@
+/* =========================
+   SCROLL ANIMATION
+========================= */
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s ease;
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+}
+
+/* =========================
+   HERO LOAD
+========================= */
+
+.hero-content{
+
+    opacity:0;
+
+    transform:translateY(30px);
+
+    transition:
+        opacity 1s ease,
+        transform 1s ease;
+}
+
+.loaded .hero-content{
+
+    opacity:1;
+
+    transform:translateY(0);
+}
