@@ -6,6 +6,9 @@
 <title>Zn²⁺ & β-아밀로이드 시냅스 실험</title>
 
 <link rel="stylesheet1" href="style.css">
+
+<script src="script.js1"></script>
+
 </head>
 
 <body>
@@ -154,8 +157,6 @@
     </button>
 
 </section>
-
-<script src="script.js"></script>
 
 </body>
 </html>
