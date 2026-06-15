@@ -1,0 +1,161 @@
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Zn²⁺ & β-아밀로이드 시냅스 실험</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="grid-background"></div>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <span class="badge">
+            20313 우승연 생명과학
+        </span>
+
+        <h1>
+            Zn²⁺와 β-아밀로이드가<br>
+            신경 전달에 미치는 영향
+        </h1>
+
+        <p>
+            아연과 β-아밀로이드가 신경전달에 미치는 영향 및 과정을 가상실험으로 알아보기
+        </p>
+
+        <button id="startReadingBtn">
+            실험개요 보기
+        </button>
+
+    </div>
+
+</section>
+
+<!-- 배경지식 -->
+
+<section class="section">
+
+    <div class="card">
+
+        <h2>논문 배경지식</h2>
+
+        <h3>아연 (Zn²⁺)</h3>
+
+        <p>
+            아연은 단순한 영양소가 아니라 뇌에서 신경전달을 조절하는 물질로 작용한다.
+            <br>
+            일부 신경세포는 시냅스 소포 안에 아연을 저장하고 있으며,
+            신경 신호가 전달될 때 이를 방출한다.
+        </p>
+
+        <h3>β-아밀로이드 (Aβ)</h3>
+
+        <p>
+            β-아밀로이드는 뇌에서 자연적으로 생성되는 단백질 조각이다.
+            <br>
+            정상 상태에서는 큰 문제가 없지만 서로 응집하면 신경 기능 장애
+            (예: 알츠하이머병)를 일으킬 수 있다.
+        </p>
+
+        <h3>CaEDTA</h3>
+
+        <p>
+            CaEDTA는 아연과 결합하여 제거하는 물질이다.
+            <br>
+            따라서 실험에서 나타난 효과가 실제로 아연 때문인지 확인하는 데 사용된다.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- 실험 목표 -->
+
+<section class="section">
+
+    <div class="card">
+
+        <h2>실험 목표</h2>
+
+        <ul>
+            <li>아연이 신경 전달에 미치는 영향 분석</li>
+            <li>β-아밀로이드가 신경 전달에 미치는 영향 분석</li>
+            <li>아연과 β-아밀로이드의 상호작용 분석</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<!-- 실험 방법 -->
+
+<section class="section">
+
+    <div class="card">
+
+        <h2>실험 방법</h2>
+
+        <p>
+            연구진은 마취된 쥐의 SI 피질(1차 체감각 피질)을 관찰하였다.
+        </p>
+
+        <p>
+            앞발에 반복적으로 자극을 주면서
+            뇌가 얼마나 반응하는지를 측정해
+            감각 정보 전달 정도를 분석하였다.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CASE 1-1 -->
+
+<section class="section">
+
+    <div class="card">
+
+        <h2> 실험단계 </h2>
+
+        <p> case 1. 농도별 아연이 시냅스의 정보전달에 영향을 주는정도 확인
+        </p>
+
+        <p> case 2. 낮은 농도의 β-아밀로이드가 시냅스의 정보전달에 영향을 주는정도 확인
+        </p>
+
+        <p> case 3. 아연과 β-아밀로이드가 함께 존재할 시 시냅스의 정보전달에 영향을 주는정도 확인
+        </p>
+
+    </div>
+
+</section>
+<!-- 시작 -->
+
+<section class="start-section">
+
+    <h2>
+        이제 직접 실험하기
+    </h2>
+
+    <p>
+        논문 결과를 바탕으로 가상 시뮬레이션을 진행해보세요.
+    </p>
+
+    <button id="simulationBtn">
+        실험 시작 →
+    </button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
